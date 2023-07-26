@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Pocket Save - MERN Stack Full Stack Website (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+Live Demo: [http://pocketsave.co.uk](http://pocketsave.co.uk)
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is the frontend part of my full-stack website project developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The project aims to create an income and expense recording web app, encouraging users to save money to achieve their financial goals.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Record income and expenses
 
-### `npm run build`
+<img src="https://api.pocketsave.co.uk/image/records.png" alt="records" width="700px" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Set savings targets and track progress
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://api.pocketsave.co.uk/image/targets.png" alt="targets" width="700px" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://api.pocketsave.co.uk/image/singleTarget.png" alt="single target" width="700px" />
 
-### `npm run eject`
+- Data visualization through charts and graphs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="https://api.pocketsave.co.uk/image/dashboard.png" alt="dashboard" width="700px" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React.js: Frontend library for building interactive user interfaces
+- React Router: Library for handling client-side routing within the React app
+- D3.js: Library for data visualization and creating interactive charts and graphs
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Image Credits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [App Logo](https://www.iconfinder.com/icons/2250033/cash_fees_money_purse_shop_spend_wallet_icon) by [Creaticca Ltd](https://www.iconfinder.com/bendavis)
+- [Home page background](https://www.iconfinder.com/icons/8233826/hr_candidate_search_job_icon) by [Boyko Pictures](https://www.iconfinder.com/Boyko.pictures)
+- [Login page background](https://www.pexels.com/photo/photo-of-a-pink-piggy-bank-11933549/) by [Ann H](https://www.pexels.com/@ann-h-45017/)
+- [Sign up page background](https://www.pexels.com/zh-tw/photo/11933676/) by [Ann H](https://www.pexels.com/@ann-h-45017/)
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or suggestions, feel free to email me at [markmak212@gmail.com](mailto:markmak212@gmail.com)
