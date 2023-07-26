@@ -16,17 +16,17 @@ This is the frontend part of my full-stack website project developed using the M
 
 - Record income and expenses
 
-<img src="https://api.pocketsave.co.uk/image/records.png" alt="records" width="700px" />
+<img src="https://raw.githubusercontent.com/markmak/pocketSaveBackend/main/public/image/records.png" alt="records" width="700px" />
 
 - Set savings targets and track progress
 
-<img src="https://api.pocketsave.co.uk/image/targets.png" alt="targets" width="700px" />
+<img src="https://raw.githubusercontent.com/markmak/pocketSaveBackend/main/public/image/targets.png" alt="targets" width="700px" />
 
-<img src="https://api.pocketsave.co.uk/image/singleTarget.png" alt="single target" width="700px" />
+<img src="https://raw.githubusercontent.com/markmak/pocketSaveBackend/main/public/image/singleTarget.png" alt="single target" width="700px" />
 
 - Data visualization through charts and graphs
 
-<img src="https://api.pocketsave.co.uk/image/dashboard.png" alt="dashboard" width="700px" />
+<img src="https://raw.githubusercontent.com/markmak/pocketSaveBackend/main/public/image/dashboard.png" alt="dashboard" width="700px" />
 
 <br>
 
