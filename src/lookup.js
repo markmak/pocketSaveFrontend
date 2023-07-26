@@ -76,8 +76,8 @@ const templateRequireList = ["templateName", "recordType", "type"];
 const recordRequireList = ["recordType", "date", "name", "type", "amount"];
 const filterKeys = ["startDate", "endDate", "recordType", "type", "name"];
 
-const baseURL = "http://pocketsave.co.uk/api/v1/";
-const imgBaseURL = "http://pocketsave.co.uk/";
+const baseURL = "https://api.pocketsave.co.uk/api/v1/";
+const imgBaseURL = "https://api.pocketsave.co.uk/";
 export {
   monthLookup,
   incomeTypes,
