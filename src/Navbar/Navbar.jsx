@@ -16,6 +16,9 @@ function Navbar() {
     navigate("/records");
     setCurrentPage("records");
   };
+  const iconClickHandle = () => {
+    setCurrentPage("dashborad");
+  };
   const openSidebar = () => {
     setShowSidebar(true);
   };
@@ -28,7 +31,11 @@ function Navbar() {
           onClick={openSidebar}
         />
       )}
-      <Link className="logo-container" to="/dashboard">
+      <Link
+        className="logo-container"
+        to="/dashboard"
+        onClick={iconClickHandle}
+      >
         <img src="/logo192.png" alt="Pocket Save Logo" id="nav-logo" />
         <span>Pocket Save</span>
       </Link>

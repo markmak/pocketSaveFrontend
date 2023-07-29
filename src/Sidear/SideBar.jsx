@@ -15,6 +15,7 @@ function SideBar() {
         to="/dashboard"
         onClick={() => {
           setShowSidebar(false);
+          setCurrentPage("dashboard");
         }}
       >
         <img src="/logo192.png" alt="Pocket Save Logo" id="sidebar-logo" />
