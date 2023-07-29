@@ -17,7 +17,7 @@ function Navbar() {
     setCurrentPage("records");
   };
   const iconClickHandle = () => {
-    setCurrentPage("dashborad");
+    setCurrentPage("dashboard");
   };
   const openSidebar = () => {
     setShowSidebar(true);
