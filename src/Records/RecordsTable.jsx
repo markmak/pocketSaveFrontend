@@ -154,7 +154,7 @@ function RecordsTable({
       </div>
       {isLoading ? (
         <div className="loading loading-long"></div>
-      ) : !records.totalCount ? (
+      ) : records.totalCount ? (
         <>
           <table className="records-table">
             <tbody className="records-table-body">
