@@ -98,6 +98,7 @@ function RecordsTable({
             name="recordType"
             className="input-style-outline"
             id="records-filter-recordType"
+            value={recordsFilter.recordType}
             onChange={recordTypeFilterHandle}
           >
             <option value="">All</option>
@@ -111,6 +112,7 @@ function RecordsTable({
             name="type"
             className="input-style-outline"
             id="records-filter-type"
+            value={recordsFilter.type}
             onChange={filterHandle}
           >
             <option value="">All</option>

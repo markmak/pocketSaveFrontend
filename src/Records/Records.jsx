@@ -7,8 +7,7 @@ import RecordsTable from "./RecordsTable";
 import axios from "axios";
 
 function Records() {
-  const { showModal, setShowModal, recordsFilter, check401Error } =
-    useContext(Context);
+  const { showModal, setShowModal, check401Error } = useContext(Context);
   const [templates, setTemplates] = useState([]);
   const [records, setRecords] = useState({});
   const [recordPage, setRecordPage] = useState(1);
@@ -22,52 +21,6 @@ function Records() {
         err?.response?.data?.errMsg ||
         "Internal server error, please try again later.",
     }));
-  };
-
-  const getData = async () => {
-    const templatesRequest = axios.get(baseURL + "record/template", {
-      withCredentials: true,
-    });
-    const recordsRequest = axios.get(
-      baseURL +
-        `record/?page=1${recordsFilter.name && `&name=${recordsFilter.name}`}`,
-      {
-        withCredentials: true,
-      }
-    );
-    try {
-      const [rawTemplates, rawRecords] = await Promise.allSettled([
-        templatesRequest,
-        recordsRequest,
-      ]);
-      if (rawTemplates.status === "fulfilled") {
-        const rawData = rawTemplates.value.data;
-        rawData.forEach((template) => {
-          template.date = template.date?.substring(0, 10) || "";
-        });
-        setTemplates(rawData);
-      } else {
-        check401Error(rawTemplates.reason);
-        checkAndSetErrMsg(rawTemplates.reason, "template");
-      }
-      if (rawRecords.status === "fulfilled") {
-        const rawData = rawRecords.value.data.data;
-        rawData.forEach((record) => {
-          record.date = record.date.substring(0, 10);
-        });
-        setRecords(rawRecords.value.data);
-      } else {
-        check401Error(rawRecords.reason);
-        checkAndSetErrMsg(rawRecords.reason, "record");
-      }
-      setIsLoading({ template: false, record: false });
-    } catch (err) {
-      setIsLoading({ template: false, record: false });
-      setError({
-        template: "Internal server error, please try again later.",
-        record: "Internal server error, please try again later.",
-      });
-    }
   };
 
   const updateTemplates = async () => {
@@ -109,7 +62,7 @@ function Records() {
   };
 
   useEffect(() => {
-    getData();
+    updateTemplates();
   }, []);
 
   return (
