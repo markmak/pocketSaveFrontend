@@ -128,10 +128,13 @@ function TargetHistory({ data }) {
                       key={`target${index}`}
                       className="single-target-card"
                     >
-                      <img
-                        src={img ? `${imgBaseURL}${img}` : "/logo192.png"}
-                        alt={`target ${name}`}
-                      />
+                      <div className="img-container">
+                        <img
+                          src={img ? `${imgBaseURL}${img}` : "/logo192.png"}
+                          alt={`target ${name}`}
+                        />
+                      </div>
+
                       <h4>
                         {name.length > 20 ? name.substring(15) + " ..." : name}
                       </h4>

@@ -98,10 +98,10 @@ function Records() {
                 const { templateName, recordType, type } = template;
                 return (
                   <div
-                    className={`single-template ${
+                    className={`template-background ${
                       recordType === "income"
-                        ? "template-income"
-                        : "template-expense"
+                        ? "background-income"
+                        : "background-expense"
                     }`}
                     key={`record-template-${index}`}
                     onClick={() =>
@@ -111,12 +111,20 @@ function Records() {
                       })
                     }
                   >
-                    {typeIconLookup[type]}
-                    <p className="template-name">
-                      {templateName.length > 20
-                        ? templateName.substring(0, 18) + "..."
-                        : templateName}
-                    </p>
+                    <div
+                      className={`single-template ${
+                        recordType === "income"
+                          ? "template-income"
+                          : "template-expense"
+                      }`}
+                    >
+                      {typeIconLookup[type]}
+                      <p className="template-name">
+                        {templateName.length > 20
+                          ? templateName.substring(0, 18) + "..."
+                          : templateName}
+                      </p>
+                    </div>
                   </div>
                 );
               })}

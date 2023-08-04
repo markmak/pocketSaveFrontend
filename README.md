@@ -14,19 +14,19 @@ This is the frontend part of my full-stack website project developed using the M
 
 ## Features
 
-- Record income and expenses
+- Record incomes and expenses
 
-<img src="https://raw.githubusercontent.com/markmak/pocketSaveBackend/main/public/image/records.png" alt="records" width="700px" />
+<img src="/public/records.png" alt="records" width="700px" />
 
-- Set savings targets and track progress
+- Set saving targets and track progress
 
-<img src="https://raw.githubusercontent.com/markmak/pocketSaveBackend/main/public/image/targets.png" alt="targets" width="700px" />
+<img src="/public/targets.png" alt="targets" width="700px" />
 
-<img src="https://raw.githubusercontent.com/markmak/pocketSaveBackend/main/public/image/singleTarget.png" alt="single target" width="700px" />
+<img src="/public/singleTarget.png" alt="single target" width="700px" />
 
 - Data visualization through charts and graphs
 
-<img src="https://raw.githubusercontent.com/markmak/pocketSaveBackend/main/public/image/dashboard.png" alt="dashboard" width="700px" />
+<img src="/public/dashboard.png" alt="dashboard" width="700px" />
 
 <br>
 
@@ -41,9 +41,9 @@ This is the frontend part of my full-stack website project developed using the M
 ## Image Credits
 
 - [App Logo](https://www.iconfinder.com/icons/2250033/cash_fees_money_purse_shop_spend_wallet_icon) by [Creaticca Ltd](https://www.iconfinder.com/bendavis)
-- [Home page background](https://www.iconfinder.com/icons/8233826/hr_candidate_search_job_icon) by [Boyko Pictures](https://www.iconfinder.com/Boyko.pictures)
-- [Login page background](https://www.pexels.com/photo/photo-of-a-pink-piggy-bank-11933549/) by [Ann H](https://www.pexels.com/@ann-h-45017/)
-- [Sign up page background](https://www.pexels.com/zh-tw/photo/11933676/) by [Ann H](https://www.pexels.com/@ann-h-45017/)
+- [Home page background](https://www.pexels.com/photo/seashore-2882660/) by [Aaron Ulsh](https://www.pexels.com/@aulsh99/)
+- [Login page background](https://www.pexels.com/photo/selective-focus-photography-of-man-using-smartphone-beside-string-lights-3585095/) by [cottonbro studio](https://www.pexels.com/@cottonbro/)
+- [Sign up page background](https://www.pexels.com/photo/woman-wearing-purple-shirt-holding-smartphone-white-sitting-on-chair-826349/) by [Andrea Piacquadio](https://www.pexels.com/@olly/)
 
 ## Contact
 

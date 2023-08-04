@@ -8,6 +8,7 @@ import Target from "./Target/Target";
 import SingleTarget from "./Target/SingleTarget/SingleTarget";
 import Setting from "./Setting/Setting";
 import NotFound from "./NotFound/NotFound";
+import Footer from "./Footer/Footer";
 import { Context } from "./Context/context";
 import { useContext } from "react";
 
@@ -49,6 +50,7 @@ function App() {
         <Route path="/setting" element={checkAuthAndNavigate(<Setting />)} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

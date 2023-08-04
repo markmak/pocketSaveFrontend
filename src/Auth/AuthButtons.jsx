@@ -27,17 +27,29 @@ function AuthButtons() {
   return (
     <div className="auth-buttons-container">
       {user ? (
-        <div id="logout-btn" className="auth-btn" onClick={logoutHandle}>
+        <div
+          id="logout-btn"
+          className="auth-btn auth-btn-blue"
+          onClick={logoutHandle}
+        >
           <BiLogOut className="icons bi-icons" />
           <span>Log Out</span>
         </div>
       ) : (
         <>
-          <div id="signup-btn" className="auth-btn" onClick={signupHandle}>
+          <div
+            id="signup-btn"
+            className="auth-btn auth-btn-light"
+            onClick={signupHandle}
+          >
             <FaUserPlus className="icons fa-icons" />
             <span>Sign Up</span>
           </div>
-          <div id="login-btn" className="auth-btn" onClick={loginHandle}>
+          <div
+            id="login-btn"
+            className="auth-btn auth-btn-dark"
+            onClick={loginHandle}
+          >
             <BiLogIn className="icons bi-icons" />
             <span>Log In</span>
           </div>

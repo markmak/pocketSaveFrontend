@@ -32,6 +32,7 @@ function AuthModal() {
         ) : (
           <img className="modal-img" src="/signupModalImg.jpg" alt="Sign up" />
         )}
+        <div className="img-filter"></div>
       </div>
     </div>
   );

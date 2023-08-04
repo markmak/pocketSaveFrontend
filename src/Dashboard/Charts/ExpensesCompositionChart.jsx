@@ -149,8 +149,8 @@ function ExpensesCompositionChart({ data }) {
                       const title = document.getElementById(
                         "expenses-composition-h4"
                       );
-                      const x = title.offsetLeft;
-                      const y = title.offsetTop + 60;
+                      const x = title.offsetLeft + 20;
+                      const y = title.offsetTop + 100;
                       return {
                         category: data.category,
                         amount: data.amount,
